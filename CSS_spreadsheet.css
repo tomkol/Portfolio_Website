@@ -1,0 +1,57 @@
+
+* {
+ font-size: 100%;
+ font-family: Helvetica;
+ margin-bottom: 5px;
+ width: 1024px;
+ background: #F8F8F8;
+}
+
+p {
+	color: #0B0C0C;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.25rem;
+}
+
+h3 {
+	font-size: 1.1rem;
+}
+
+img {
+	width: 768px;
+	border: 1px solid #0B0C0C;
+}
+
+.skills {
+	text-decoration: underline;
+}
+
+.navigation {
+	border: 1px solid #D5D5D5;
+	background-color: #EAEAEA;
+	padding: 5px 0px 5px 0px;
+	text-align: right;
+}
+
+/*although what I have here is what I wanted, but how do I align the element to the right without stretching it across?
+With Border width?*/
+
+#navigation2 {
+	background-color: #EAEAEA;
+	margin-right: 5px;
+}
+
+.name {
+	text-align: left;
+	float: left;
+	background-color: #EAEAEA;
+	font-size: 20px;
+	font-weight: bold; 
+	/*when i put in margin-left: 5px here the background color seems to go outside the border element*/
+}
